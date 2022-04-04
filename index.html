@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    
+    <title>DuckSource</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <center>
+      <h1>DuckSource</h1>
+      <p>DuckSource is a free resource for students to study with!</p>
+
+    <!-- ----------------- Tab Navitagion ------------- - ZC -->
+    <div id="tab" style="display:inline;">
+        <ul class="Buttons">
+          <button onclick="window.location.href = 'index.html';"" class="dropbtn">Home</button>
+          <button onclick="window.location.href = 'about.html';"" class="dropbtn">About</button>
+          <button onclick="window.location.href = 'resources.html';"" class="dropbtn">Resources</button>
+          <button onclick="window.location.href = 'contact.html';"" class="dropbtn">Contact</button>
+          <button onclick="openDrop()" class="dropbtn"><img width="15" height="13" src="https://i.ibb.co/H2kFCnm/483262d8d8eff3ebf7d5fed917e25700.png" alt="Classes"></span></button>
+          <form id="form" role="search">
+  <input type="search" id="query" name="q"
+   placeholder="Search...">
+  <button>Search</button>
+</form>
+        </ul>
+    </div>
+  </center>
+    <!---------------------------------------------------------- -->
+    
+    <!-- Dropdown -->
+    <div id="myDropdown" class="side dropdown-content">
+      
+      <h3>Math Classes</h3>
+      <div>
+            <div>
+              <input type="checkbox" id="CalculusI" name="Math" value="CalculusI">
+                <label for="CalculusI">Calculus I</label>                                             </div>
+            <div>
+              <input type="checkbox" id="CalculusII" name="Math" value="CalculusII">
+                <label for="CalculusI">Calculus II</label>                                           </div>
+           <div>
+              <input type="checkbox" id="Discrete" name="Math" value="Discrete">
+              <label for="Discrete">Discrete</label>             
+           </div>
+           <p><button id="select">Submit</button></p>
+      </div>
+    </div> <!-- end of dropdown -->
+  
+    <!-- Home -->
+    
+    <div id="Home" class="tabcontent">
+      <center>
+        Home content
+      </center>
+    </div>
+    <div class="row">
+  <div class="column" id = "dropdown">
+  <button class="dropbtn"><img src="https://www.wellesley.edu/sites/default/files/styles/news_refresh_hero/public/assets/dailyshot/ds_461390782.jpg?itok=jr0Buv1t"style="width:80%"/></button>
+      <p style="float: left; margin-left: 160px; margin-right: 250px">Math</p>
+  <div class="dropdown-content">
+    <a href="MA123.html">MA 123 - Calculus</a>
+    <a href="MA134.html">MA 134 - Discrete Math</a>
+    <a href="MA221.html">MA 221 - Differential Equations</a>
+  </div>
+</div>
+  <div class="column" id = "dropdown">
+      <button class="dropbtn"><img src="https://d3jh33bzyw1wep.cloudfront.net/s3/W1siZiIsIjIwMTkvMTEvMjEvMTIvMDYvMjcvMzIvc2h1dHRlcnN0b2NrXzE0OTg3NDI1MTkuanBnIl0sWyJwIiwidGh1bWIiLCI4MDB4NDUwIyJdXQ"style = "width:80%"/></button>
+      <p style = "float: center; margin-right: 100px' margin-left:200px">Engineering</p>
+        <div class="dropdown-content">
+    <a href="EE.html">Electrical</a>
+    <a href="#">Mechanical</a>
+    <a href="#">Software</a>
+  </div>
+  </div>
+  <div class="column" id ="dropdown">
+      <button class="dropbtn"><img src="https://epi-rsc.rsc-cdn.org/globalassets/05-journals-books-databases/our-journals/00-journal-pages-heros/Chemical-Science-HERO.jpg?version=9e72b3c3"style = "width:80%"/></button>
+      <p style="float: center; margin-right: 100px; margin-left: 230px">Science</p>
+    <div class="dropdown-content">
+    <a href="#">Mechanics</a>
+    <a href="#">Electricity & Magnetism</a>
+    <a href="thermo.html">Thermodynamics</a>
+    </div>
+  </div>
+</div>
+<!-- JavaScrpt in file -->
+    <script src="script.js"></script>
+   
+
+    
+  </body>
+</html>

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>DuckSource</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <center>
+      <h1>DuckSource</h1>
+      <p>DuckSource is a free resource for students to study with!</p>
+    <!-- ----------------- Tab Navitagion ------------- - ZC -->
+    <div id="tab" style="display:inline;">
+        <ul class="Buttons">
+          <button onclick="window.location.href = 'index.html';"" class="dropbtn">Home</button>
+          <button onclick="window.location.href = 'about.html';"" class="dropbtn">About</button>
+          <button onclick="window.location.href = 'resources.html';"" class="dropbtn">Resources</button>
+          <button onclick="window.location.href = 'contact.html';"" class="dropbtn">Contact</button>
+          <button onclick="openDrop()" class="dropbtn"><img width="15" height="13" src="https://i.ibb.co/H2kFCnm/483262d8d8eff3ebf7d5fed917e25700.png" alt="Classes"></span></button>
+        </ul>
+    </div>
+  </center>
+<!---end of tab nav -->
+
+    <h1>Contact Us!</h1>
+    
+   </div>
+		<h3>Contact Form</h3>
+
+	<div class="container">
+		<form action="/action_page.php">
+			<label for="fname">First Name</label>
+			<input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+			<label for="lname">Last Name</label>
+			<input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+			<label for="email">Email</label>
+			<input type="text" id="email" name="email" placeholder="Your email..">
+
+			<label for="phone">Phone Number</label>
+			<input type="text" id="phone" name="phonenumber" placeholder="Your phone number..">
+
+			<label for="subject">Subject</label>
+			<textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+			<input type="submit" value="Send message" onclick= "showAlert()">
+		</form>
+	</div>
+		<script>
+		function showAlert() {
+			var myT= "Your message has been received and we will respond to you shortly.";
+			alert(myT);
+			
+        }
+		</script>
+    
+  </body>
+</html>
