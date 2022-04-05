@@ -56,7 +56,7 @@
             "data": [{"ISID": readCookie('ISID'), "First_Name": fname, "Last_Name": lname, "Password": pword,"Email": mail, "Username": uname, "Major": maj}]
         }).then( response => {
             console.log(response.data);
-            window.location.href = 'homepage.html';
+            window.location.href = '../screens/homepage.html';
         })
         .catch(function (error) {
             console.log(error);
