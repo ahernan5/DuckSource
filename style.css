@@ -1,5 +1,5 @@
 body{
-  background: linen;
+  background: #F6F6F2;
 }
 h1
 {
@@ -53,8 +53,8 @@ h1
     font-size: 16px;
   }
 .dropbtn:hover, .dropbtn:focus {
-    background-color: #7fa2df; 
-    border: 2px solid #7fa2df;
+    background-color: #6FB3B8; 
+    border: 2px solid #6FB3B8;
     color: white;
   }
 .dropdown {
@@ -112,7 +112,7 @@ h1
 #dropdown:hover .dropdown-content {display: block;}
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
-#dropdown:hover .dropbtn {background-color: #3e8e41;}
+#dropdown:hover .dropbtn {background-color: #6FB3B8;}
 
 /* Three image containers (use 25% for four, and 50% for two, etc) */
 .column {
