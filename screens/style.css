@@ -183,3 +183,17 @@ input[type=submit]:hover {
   }
 }
 
+/* Master Resources List styling */
+h2{
+  color: #388087;
+}
+#list{
+  text-align: center;
+}
+a{
+  color:#6FB3B8;
+  font-size: xx-large; 
+}
+p{
+  color:black;
+}
