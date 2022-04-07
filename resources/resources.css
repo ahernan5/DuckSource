@@ -143,5 +143,27 @@ body{
       border: 1px solid #ccc;
     }
   }
+
+  /* logout button*/
+  #logout2 {
+    line-height: 12px;
+    width: 100px;
+    height: 30px;
+    font-size: 14pt;
+    font-family: tahoma;
+    background-color: yellowgreen;
+    border: 2px solid yellowgreen;
+    border-radius: 0px;
+    margin-top: 5px;
+    margin-right: 40px;
+    position:absolute;
+    top:0;
+    right:0;
+  }
+  #logout2:hover, #logout2:focus{
+    background-color: #6FB3B8; 
+    border: 2px solid #6FB3B8;
+    color: white;
+  }
   
   
