@@ -145,7 +145,7 @@ body{
   }
 
   /* logout button*/
-  #logout {
+  #logout2 {
     line-height: 12px;
     width: 100px;
     height: 30px;
@@ -160,7 +160,7 @@ body{
     top:0;
     right:0;
   }
-  #logout:hover, #logout:focus{
+  #logout2:hover, #logout2:focus{
     background-color: #6FB3B8; 
     border: 2px solid #6FB3B8;
     color: white;
