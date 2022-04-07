@@ -186,14 +186,22 @@ input[type=submit]:hover {
 /* Master Resources List styling */
 h2{
   color: #388087;
+  font-size: 40px;
 }
 #list{
   text-align: center;
 }
 a{
   color:#6FB3B8;
-  font-size: xx-large; 
+  font-size: x-large; 
+}
+a:hover{
+  color: yellowgreen;
 }
 p{
-  color:black;
+  color: black;
+}
+hr.rounded {
+  border-top: 8px solid yellowgreen;
+  border-radius: 5px;
 }
