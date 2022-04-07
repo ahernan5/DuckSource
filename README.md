@@ -7,3 +7,16 @@ Welcome to DuckSource! This is a website that allows you to obtain resources to 
 website link:
 https://ahernan5.github.io/DuckSource/
 
+# Outline
+Frontend:
+*Login/Create Profile Page
+*Home Page
+*About Page
+*Master Resource list Page 
+*Contact Page
+*Profile Page
+*Resource page for each class under each subject
+
+Backend:
+*Sheetsdb API
+*Store ISID, username, password, name, and major 
