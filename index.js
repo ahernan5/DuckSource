@@ -28,7 +28,6 @@ function check_login(){
     });
 }
 
-
 function readCookie(name) {
     let key = name + "=";
     let cookies = document.cookie.split(';');
