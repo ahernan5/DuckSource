@@ -20,3 +20,4 @@ Frontend:
 Backend:
 * Sheetsdb API
 * Store ISID, username, password, name, and major 
+* Contact Page is connected to FormSubmit database
