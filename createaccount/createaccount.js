@@ -9,7 +9,7 @@
     
     
     window.onload = function() {
-        axios.get('https://sheetdb.io/api/v1/0fjcjli9h840i')
+        axios.get('https://sheetdb.io/api/v1/gml9sag3ds9h6')
             .then( response => {
                 var users = response.data;
                 var condition = true;
@@ -52,7 +52,7 @@
         var maj = document.getElementById('major').value;
        
     
-        axios.post('https://sheetdb.io/api/v1/0fjcjli9h840i',{
+        axios.post('https://sheetdb.io/api/v1/gml9sag3ds9h6',{
             "data": [{"ISID": readCookie('ISID'), "First_Name": fname, "Last_Name": lname, "Password": pword,"Email": mail, "Username": uname, "Major": maj}]
         }).then( response => {
             console.log(response.data);
