@@ -23,39 +23,52 @@
     </div>
   </center>
 <!---end of tab nav -->
-
-    <h1>Contact Us!</h1>
     
-   </div>
-		<h3>Contact Form</h3>
-
-	<div class="container">
-		<form action="/action_page.php">
-			<label for="fname">First Name</label>
-			<input type="text" id="fname" name="firstname" placeholder="Your name..">
-
-			<label for="lname">Last Name</label>
-			<input type="text" id="lname" name="lastname" placeholder="Your last name..">
-
-			<label for="email">Email</label>
-			<input type="text" id="email" name="email" placeholder="Your email..">
-
-			<label for="phone">Phone Number</label>
-			<input type="text" id="phone" name="phonenumber" placeholder="Your phone number..">
-
-			<label for="subject">Subject</label>
-			<textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
-
-			<input type="submit" value="Send message" onclick= "showAlert()">
-		</form>
-	</div>
-		<script>
-		function showAlert() {
-			var myT= "Your message has been received and we will respond to you shortly.";
-			alert(myT);
-			
-        }
-		</script>
+    <div class="container">
+      <h1 class="brand"><span>Contact</span> Us!</h1>
+      <div class="wrapper">
+        <div class="company-info">
+          <h3>DuckSource</h3>
+          <ul>
+            <li><i class="fa fa-road"></i>1 Castle Point Terrace, Hoboken</li>
+            <li><i class="fa fa-phone"></i> (444) 444-4444</li>
+            <li><i class="fa fa-envelope"></i> test@DuckSource.test</li>
+          </ul>
+        </div>
+        <div class="contact">
+          <h3>Email Us</h3>
+          <div class="alert">Your message has been sent</div>
+          <form id="contactForm" action="https://formsubmit.co/alllyy152@gmail.com" method="POST">
+            <p>
+              <label>Name</label>
+              <input type="text" name="name" id="name" required>
+            </p>
+            <p>
+              <label>School</label>
+              <input type="text" name="school" id="school">
+            </p>
+            <p>
+              <label>Email Address</label>
+              <input type="email" name="email" id="email" required>
+            </p>
+            <p>
+              <label>Phone Number</label>
+              <input type="text" name="phone" id="phone">
+            </p>
+            <p class="full">
+              <label>Message</label>
+              <textarea name="message" rows="5" id="message"></textarea>
+            </p>
+            <p class="full">
+              <button type="submit">Submit</button>
+            </p>
+          </form>
+        </div>
+      </div>
+    </div>
     
+    
+     <!-- <script src="script.js"></script> -->
+
   </body>
 </html>
