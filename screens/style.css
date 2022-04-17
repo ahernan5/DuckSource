@@ -182,15 +182,29 @@ h1
   display:none;
 }
 
-/* Style the search box inside the navigation bar */
-.tab input[type=text] {
-  float: right;
-  padding: 6px;
-  border: none;
-  margin-top: 8px;
-  margin-right: 16px;
-  font-size: 17px;
+/* Search bar styling */
+#searchbar{
+	margin-left: 70%;
+	padding:15px;
+	border-radius: 10px;
 }
+
+input[type=text] {
+	width: 15%;
+	-webkit-transition: width 0.15s ease-in-out;
+	transition: width 0.15s ease-in-out;
+}
+
+/* When the input field gets focus,
+		change its width to 100% */
+input[type=text]:focus {
+	width: 70%;
+}
+
+.element{
+display: list-item;	
+}
+
 
 /* When the screen is less than 600px wide, stack the links and the search field vertically instead of horizontally */
 @media screen and (max-width: 600px) {

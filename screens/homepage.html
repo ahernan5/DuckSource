@@ -21,37 +21,16 @@
           <button onclick="window.location.href = 'contact.html';" class="dropbtn">Contact</button>
           <button onclick="window.location.href = '../index.html';" id="logout">Logout</button>
           <button onclick="window.location.href = 'profile.html';" class="dropbtn"><img width="20" height="15" src="https://www.freeiconspng.com/thumbs/profile-icon-png/account-profile-user-icon--icon-search-engine-10.png"/></button>
-          <form id="form" role="search">
-  <input type="search" id="query" name="q"
-   placeholder="Search...">
-  <button>Search</button>
-</form>
+    
+  <!-- <input type="search" id="searchbar" name="q"
+   placeholder="Search..."> -->
+  <!-- <button>Search</button> -->
+  <input id="searchbar" onkeyup="search()" type="text"
+    name="search" placeholder="Search..">
         </ul>
     </div>
   </center>
     <!---------------------------------------------------------- -->
-    
-    <!-- Dropdown -->
-    <div id="myDropdown" class="side dropdown-content">
-      
-      <h3>Math Classes</h3>
-      <div>
-            <div>
-              <input type="checkbox" id="CalculusI" name="Math" value="CalculusI">
-                <label for="CalculusI">Calculus I</label>                                             
-            </div>
-            <div>
-              <input type="checkbox" id="CalculusII" name="Math" value="CalculusII">
-                <label for="CalculusI">Calculus II</label>                                           
-            </div>
-            <div>
-              <input type="checkbox" id="Discrete" name="Math" value="Discrete">
-              <label for="Discrete">Discrete</label>             
-            </div>
-            <p><button id="select">Submit</button></p>
-      </div>
-    </div> <!-- end of dropdown -->
-  
     <!-- Home -->
     
     <div id="Home" class="tabcontent">
@@ -65,32 +44,32 @@
     <button class="dropbtn"><img src="https://www.wellesley.edu/sites/default/files/styles/news_refresh_hero/public/assets/dailyshot/ds_461390782.jpg?itok=jr0Buv1t"style="width:80%"/></button>
     <p style="float: center; margin-right: 100px; margin-left:150px; font-size: 20px; color: #388087; font-weight: bold;">Math</p>
   <div class="dropdown-content">
-  <a href="../resources/MA123.html">MA 123/124 - Calculus I/II</a>
-  <a href="../resources/MA126.html">MA 126 - Multivariable Calculus</a>
-  <a href="../resources/MA134.html">MA 134 - Discrete Math</a>
-  <a href="../resources/MA221.html">MA 221 - Differential Equations</a>
-  <a href="../resources/MA222.html">MA 222 - Probability and Statistics</a>
+  <a href="../resources/MA123.html" class = "element">MA 123/124 - Calculus I/II</a>
+  <a href="../resources/MA126.html" class = "element">MA 126 - Multivariable Calculus</a>
+  <a href="../resources/MA134.html" class = "element">MA 134 - Discrete Math</a>
+  <a href="../resources/MA221.html" class = "element">MA 221 - Differential Equations</a>
+  <a href="../resources/MA222.html" class = "element">MA 222 - Probability and Statistics</a>
   </div>
 </div>
   <div class="column" id = "dropdown">
       <button class="dropbtn"><img src="https://images1.content-hci.com/commimg/myhotcourses/blog/post/myhc_89683.jpg"style = "width:80%"/></button>
       <p style = "float: center; margin-right: 100px; margin-left:120px; font-size: 20px; color: #388087; font-weight: bold;">Computer Science</p>
     <div class="dropdown-content">
-    <a href="../resources/CS115.html">CS 115 - Intro to Computer Science</a>
-    <a href="../resources/CS135.html">CS 135 - Discrete Structures</a>
-    <a href="../resources/CS284.html">CS 284 - Data Structures</a>
-    <a href="../resources/CS306.html">CS 306 - Introduction to IT Services</a>
+    <a href="../resources/CS115.html" class = "element">CS 115 - Intro to Computer Science</a>
+    <a href="../resources/CS135.html" class = "element">CS 135 - Discrete Structures</a>
+    <a href="../resources/CS284.html" class = "element">CS 284 - Data Structures</a>
+    <a href="../resources/CS306.html" class = "element">CS 306 - Introduction to IT Services</a>
     </div>
   </div>
   <div class="column" id = "dropdown">
       <button class="dropbtn"><img src="https://d3jh33bzyw1wep.cloudfront.net/s3/W1siZiIsIjIwMTkvMTEvMjEvMTIvMDYvMjcvMzIvc2h1dHRlcnN0b2NrXzE0OTg3NDI1MTkuanBnIl0sWyJwIiwidGh1bWIiLCI4MDB4NDUwIyJdXQ"style = "width:80%"/></button>
       <p style = "float: center; margin-right: 100px; margin-left:150px; font-size: 20px; color: #388087; font-weight: bold;">Engineering</p>
     <div class="dropdown-content">
-    <a href="../resources/EE.html">Electrical</a>
-    <a href="../resources/ME.html">Mechanical</a>
-    <a href="../resources/SE.html">Software</a>
-    <a href="../resources/CE.html">Computer</a>
-    <a href="../resources/CiE.html">Civil</a>
+    <a href="../resources/EE.html" class = "element">Electrical</a>
+    <a href="../resources/ME.html" class = "element">Mechanical</a>
+    <a href="../resources/SE.html" class = "element">Software</a>
+    <a href="../resources/CE.html" class = "element">Computer</a>
+    <a href="../resources/CiE.html" class = "element">Civil</a>
     </div>
   </div>
 
@@ -100,32 +79,32 @@
       <button class="dropbtn"><img src="https://www.timeshighereducation.com/sites/default/files/styles/the_breaking_news_image_style/public/Pictures/web/t/g/h/illustration_of_two_peoples_thought.jpg?itok=88h36GeZ"style = "width:74%"/></button>
       <p style = "float: center; margin-right: 100px; margin-left:60px; font-size: 20px; color: #388087; font-weight: bold;">Humanities/Social Sciences</p>
     <div class="dropdown-content">
-    <a href="../resources/HSS121.html">HSS 121 - Intro Urban Studies</a>
-    <a href="../resources/HSS127.html">HSS 127 - Intro Pol. Sci: National Government</a>
-    <a href="../resources/HSS131.html">HSS 131 - Intro to Anthropology</a>
-    <a href="../resources/HSS141.html">HSS 141 - Intro to Sociology</a>
-    <a href="../resources/HSS175.html">HSS 175 - Fundamentals of Psychology</a>
-    <a href="../resources/HSS332.html">HSS 332 - Health Psychology</a>
+    <a href="../resources/HSS121.html" class = "element">HSS 121 - Intro Urban Studies</a>
+    <a href="../resources/HSS127.html" class = "element">HSS 127 - Intro Pol. Sci: National Government</a>
+    <a href="../resources/HSS131.html" class = "element">HSS 131 - Intro to Anthropology</a>
+    <a href="../resources/HSS141.html" class = "element">HSS 141 - Intro to Sociology</a>
+    <a href="../resources/HSS175.html" class = "element">HSS 175 - Fundamentals of Psychology</a>
+    <a href="../resources/HSS332.html" class = "element">HSS 332 - Health Psychology</a>
     </div>
   </div>
   <div class="column" id = "dropdown">
       <button class="dropbtn"><img src="https://www.state.gov/wp-content/uploads/2019/04/Science-Technology-shutterstock_449187505.jpg"style = "width:80%"/></button>
       <p style = "float: center; margin-right: 50px; margin-left:40px; font-size: 20px; color: #388087; font-weight: bold;">Humanities/Science and Technology</p>
     <div class="dropdown-content">
-    <a href="../resources/HST120.html">HST 120 - Intro to Science & Tech Studies</a>
-    <a href="../resources/HST160.html">HST 160 - Intro to Science Communication</a>
-    <a href="../resources/HST250.html">HST 250 - Medical Humanities</a>
-    <a href="../resources/HST350.html">HST 350 - Medical Anthropology</a>
+    <a href="../resources/HST120.html" class = "element">HST 120 - Intro to Science & Tech Studies</a>
+    <a href="../resources/HST160.html" class = "element">HST 160 - Intro to Science Communication</a>
+    <a href="../resources/HST250.html" class = "element">HST 250 - Medical Humanities</a>
+    <a href="../resources/HST350.html" class = "element">HST 350 - Medical Anthropology</a>
     </div>
   </div>
   <div class="column" id = "dropdown">
       <button class="dropbtn"><img src="https://s7d2.scene7.com/is/image/Kennametal/History?$MobileBanner$&"style = "width:80%"/></button>
       <p style = "float: center; margin-right: 100px; margin-left:120px; font-size: 20px; color: #388087; font-weight: bold;">Humanities/History</p>
     <div class="dropdown-content">
-    <a href="../resources/HHS125.html">HHS 125 - US History to 1865</a>
-    <a href="../resources/HHS130.html">HHS 130 - History of Science & Technology</a>
-    <a href="../resources/HHS180.html">HHS 180 - History of Art:Prehist-Modrn Era</a>
-    <a href="../resources/HHS210.html">HHS 210 - History of Medicine</a>
+    <a href="../resources/HHS125.html" class = "element">HHS 125 - US History to 1865</a>
+    <a href="../resources/HHS130.html" class = "element">HHS 130 - History of Science & Technology</a>
+    <a href="../resources/HHS180.html" class = "element">HHS 180 - History of Art:Prehist-Modrn Era</a>
+    <a href="../resources/HHS210.html" class = "element">HHS 210 - History of Medicine</a>
     </div>
   </div>
 
@@ -134,30 +113,30 @@
     <button class="dropbtn"><img src="https://media.istockphoto.com/photos/business-network-concept-customer-support-shaking-hands-picture-id1256603011?k=20&m=1256603011&s=612x612&w=0&h=ZoZ6LyKdwAqubUtMloUivfG1EYiIDUTJytFX-KK1Xdc="style = "width:80%"/></button>
     <p style = "float: center; margin-right: 100px; margin-left:150px; font-size: 20px; color: #388087; font-weight: bold;">Business</p>
   <div class="dropdown-content">
-  <a href="../resources/BT243.html">BT 243 - Macroeconomics</a>
-  <a href="../resources/BT333.html">BT 333 - Database Management</a>
-  <a href="../resources/BT350.html">BT 350 - Marketing</a>
+  <a href="../resources/BT243.html" class = "element">BT 243 - Macroeconomics</a>
+  <a href="../resources/BT333.html" class = "element">BT 333 - Database Management</a>
+  <a href="../resources/BT350.html" class = "element">BT 350 - Marketing</a>
   </div>
 </div>
   <div class="column" id = "dropdown">
       <button class="dropbtn"><img src="https://www.stevens.edu/sites/stevens_edu/files/styles/image_feature_470x264/public/quantitative_finance-71606587_0.jpg?itok=z562RFbJ"style = "width:80%"/></button>
       <p style = "float: center; margin-right: 100px; margin-left:110px; font-size: 20px; color: #388087; font-weight: bold;">Quantitative Finance</p>
     <div class="dropdown-content">
-    <a href="../resources/QF101.html">QF 101/102 - Introduction to Quantitative Finance I/II</a>
-    <a href="../resources/QF200.html">QF 200 - Financial Econometrics</a>
-    <a href="../resources/QF202.html">QF 202 - Introduction to Financial Time Series</a>
-    <a href="../resources/QF301.html">QF 301 - Advanced Time Series Analytics and Machine Learning</a>
+    <a href="../resources/QF101.html" class = "element">QF 101/102 - Introduction to Quantitative Finance I/II</a>
+    <a href="../resources/QF200.html" class = "element">QF 200 - Financial Econometrics</a>
+    <a href="../resources/QF202.html" class = "element">QF 202 - Introduction to Financial Time Series</a>
+    <a href="../resources/QF301.html" class = "element">QF 301 - Advanced Time Series Analytics and Machine Learning</a>
     </div>
   </div>
   <div class="column" id ="dropdown">
     <button class="dropbtn"><img src="https://epi-rsc.rsc-cdn.org/globalassets/05-journals-books-databases/our-journals/00-journal-pages-heros/Chemical-Science-HERO.jpg?version=9e72b3c3"style = "width:80%"/></button>
     <p style="float: center; margin-right: 100px; margin-left: 180px; font-size: 20px; color: #388087; font-weight: bold;">Science</p>
   <div class="dropdown-content">
-  <a href="../resources/CH115.html">CH 115/116 - Chemistry</a>
-  <a href="../resources/PEP112.html">PEP 112 - Electricity & Magnetism</a>
-  <a href="../resources/E234.html">ENGR 234 - Thermodynamics</a>
-  <a href="../resources/BIO281.html">BIO 281 - Biology and Biotechnology</a>
-  <a href="../resources/BIO381.html">BIO 381 - Cell Biology</a>
+  <a href="../resources/CH115.html" class = "element">CH 115/116 - Chemistry</a>
+  <a href="../resources/PEP112.html" class = "element">PEP 112 - Electricity & Magnetism</a>
+  <a href="../resources/E234.html" class = "element">ENGR 234 - Thermodynamics</a>
+  <a href="../resources/BIO281.html" class = "element">BIO 281 - Biology and Biotechnology</a>
+  <a href="../resources/BIO381.html" class = "element">BIO 381 - Cell Biology</a>
   </div> 
 </div>
 </div>
